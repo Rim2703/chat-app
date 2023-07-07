@@ -1,0 +1,212 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.JoinPage{
+  background-color: rgb(31, 29, 29);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.JoinContainer{
+ 
+ 
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.JoinContainer > h1{
+  color: white;
+  font-size: 2.5vmax;
+  width: 25vmax;
+  border-bottom: 0.2vmax solid white;
+  text-align: center;
+  padding: 1vmax;
+  font-family: "Roboto";
+  box-sizing: border-box;
+}
+
+#joinInput{
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  outline: none;
+  font-size: 1.2vmax;
+  margin: 2vmax;
+  box-sizing: border-box;
+}
+.joinbtn{
+  width: 25vmax;
+  padding: 1.5vmax;
+  border: none;
+  color: white;
+  font-family: "Roboto";
+  outline: none;
+  font-size: 1.2vmax;
+ background-color: crimson;
+ box-sizing: border-box;
+ transition: all 0.3s;
+ cursor: pointer;
+}
+.joinbtn:hover{
+  background-color: rgb(180, 27, 58);
+}
+
+
+.chatPage {
+  background-color: rgb(31, 29, 29);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatContainer {
+  background-color: white;
+  height: 60%;
+  width: 50%;
+}
+
+.header {
+  background-color: crimson;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header>h2 {
+  font-size: 1.5vmax;
+  color: white;
+  margin: 2.5vmax;
+}
+
+.header img {
+
+  margin: 2.5vmax;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.header>img:hover {
+  transform: scale(1.2);
+}
+
+
+.chatBox {
+
+  height: 70%;
+  box-sizing: border-box;
+
+}
+
+.inputBox {
+
+  height: 15%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+#chatInput {
+
+  width: 80%;
+  border: none;
+  padding: 2vmax;
+  box-sizing: border-box;
+  background-color: white;
+  outline: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2vmax;
+  border-top: 0.2vmax solid rgba(41, 41, 41, 0.562);
+}
+
+
+.sendBtn {
+  background-color: crimson;
+  color: white;
+  border: none;
+  width: 21%;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.sendBtn>img {
+  width: 2.6vmax;
+  filter: brightness(100) invert();
+  transition: all 0.3s;
+}
+
+.sendBtn:hover {
+  background-color: rgb(156, 13, 42);
+}
+
+.sendBtn:hover img {
+  transform: translateX(10px);
+}
+
+.messageBox{
+  padding: 1vmax;
+  margin: 1vmax;
+  border-radius: 0.5vmax;
+  display: inline-block;
+  clear: both;
+  font-size: 1.2vmax;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.right{
+  float: right;
+  background-color: crimson;
+  color: white;
+  text-align: right;
+}
+
+.left{
+  float: left;
+  text-align: left;
+  background-color: rgb(196, 255, 184);
+  
+}
